@@ -10,41 +10,29 @@
 
 ## 2. Deployed Project Link
 
-- **Live GitHub Pages URL:** [Paste your live deployment link here]
-  *(Example: https://is-project-2026.github.io/hospital-management-138141/)*
+- **Live GitHub Pages URL:** https://is-project-2026.github.io/dictionary-167683/
 
 ---
 
 ## 3. Reflection — Grounded in Your Git History
 
-> **Rules:** Every answer below **must include a direct link** to the specific commit, PR, issue, or branch in your repository that demonstrates what you are describing. Answers without working links will not be graded. Generic explanations that could apply to any project will receive zero marks.
->
-> **Marks:** A (2 marks) · B (1 mark) · C (1 mark) · D (1 mark) = **5 marks total**
 
 ### A. Your Best Commit
-
-Paste the URL of the commit in your history that you think best demonstrates clean conventional commit practice (good type tag, clear subject, meaningful body or footer).
 
 - **Commit URL:** (https://github.com/IS-PROJECT-2026/dictionary-167683/commit/98cbfcad4cf5d4f04796289a62ea78709a5871d9)
 - **Why this one?** I was able to use good practices for commits and fix a problem from the previous commit
 
-### B. A Mistake or Struggle
-
-Link to a commit, PR, or issue where something went wrong — a bad commit message you had to fix, a branch you had to delete and recreate, a PR that needed rework, or a deployment that broke. 
+### B. A Mistake or Struggle 
 
 - **Link to the evidence:** (https://github.com/IS-PROJECT-2026/dictionary-167683/commit/e552a2a42809c7074427a812d7dfda289442b2c8)
 - **What happened and how did you recover?** I accidentally made a branch into the main branch without first having a main branch. I later had to create a main branch and switch it to default.
 
 ### C. A Pull Request You're Proud Of
 
-Paste the URL of the PR that best shows your self-review process — one where the description is clear, the issue linkage is correct, and the diff tells a coherent story.
-
 - **PR URL:** https://github.com/IS-PROJECT-2026/dictionary-167683/commit/b2470c89457e95a1d5565a26c10f38bda8ddb259
 - **What did you check before merging?** I checked to ensure it would simulate the error.
 
 ### D. One Thing You Would Do Differently
-
-If you had to restart this project from scratch with everything you know now, name one specific workflow decision you would change (not a code change — a Git/project management decision).
 
 - **What would you change?** I would have a better plan and clear steps to follow before starting the issue. It made me accidentally not create a main branch at the beginning.
 - **Link to the evidence of the original decision:** (https://github.com/IS-PROJECT-2026/dictionary-167683/commit/e552a2a42809c7074427a812d7dfda289442b2c8)
@@ -55,47 +43,47 @@ If you had to restart this project from scratch with everything you know now, na
 
 Demonstrate your workflow mechanics by embedding your screenshots below.
 
-> **CRITICAL FOR WORKING IMAGES:** Do not type manual folder paths. Edit this file directly on the GitHub web interface, click on the blank line below each prompt, and **paste (Ctrl+V / Cmd+V)** your screenshot. GitHub will automatically upload the file and generate a permanent, working image link for you.
-
 ### A. Milestones and Issues
-*Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
+<img width="317" height="167" alt="Screenshot 2026-08-17 215720" src="https://github.com/user-attachments/assets/47e7cd45-66b6-4770-8aa2-d7aad8a27b02" />
 
-* **Caption:** [Write a brief sentence describing your milestones here]
+<img width="331" height="153" alt="image" src="https://github.com/user-attachments/assets/9d68c950-4fb2-4b2f-97ad-ecc9ad1fd842" />
+
+* **Caption:** I chose three milestones which are uploading the code into the repository, testing to see if it can be deployed on github and reviewing everything after. The issues correspond to the milestones and are closed.
 
 ### B. Project Board
-*Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
+<img width="449" height="171" alt="Screenshot 2026-08-17 215816" src="https://github.com/user-attachments/assets/c3691f95-5d68-4c98-98b4-214e7b0341ca" />
 
-* **Caption:** [Write a brief sentence describing your board state here]
+* **Caption:** The different issues entered various states such as Todo, in progress and done. The states change as an issue is resolved.
 
 ### C. Branching Architecture
-*Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
 
-[PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
+<img width="460" height="239" alt="Screenshot 2026-08-17 215915" src="https://github.com/user-attachments/assets/6a9c0c20-9f6c-4161-a307-e806a7e1c90f" />
 
-* **Caption:** [Write a brief sentence describing your branch list here]
+* **Caption:** [The different branches are shown with the branch main being the default branch  that cannot be committed to directly.]
 
 ### D. Pull Requests & Traceability
-*Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
+<img width="397" height="239" alt="Screenshot 2026-08-17 220146" src="https://github.com/user-attachments/assets/104bd526-3ce3-4789-b118-65a07b3877c5" />
 
-[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
+ **Caption:** A pull request regarding changes made to the main css file for the index page. It has been merged.
 
-* **Caption:** [Write a brief sentence describing your PR and what issue it closes]
-
----
 
 ## 5. Merge Conflict Evidence
 
 
 **What cause did you use?** Changing the same line on two branches.
 
+<img width="589" height="56" alt="image" src="https://github.com/user-attachments/assets/785e8bbd-e134-4c07-9fd0-083ce6c65101" />
 
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
+Branch `conflict/branch-B` attempted to merge `conflict/branch-A`. Both branches modified the same heading line in `index.html` differently, so Git could not automatically determine which version should be retained.
 
-* **Caption:** branch B attempted to merge with branch  A
+<img width="722" height="152" alt="conflict_evidence png" src="https://github.com/user-attachments/assets/e1898258-e9a3-4571-b7e3-500ccf11788c" />
+
+**Caption:** Git identified two competing versions of the same section of `index.html`. I reviewed both changes and selected the appropriate final heading before removing the conflict markers.
 
 
-[PASTE SCREENSHO]F CLEAN RESOLUTION HERE]
+<img width="365" height="60" alt="Screenshot 2026-08-17 222333" src="https://github.com/user-attachments/assets/b547cbea-3499-4736-b6c9-fa4e2b17fcc3" />
+
+**Caption:** The conflict was resolved manually, the resulting file was staged, and the merge was committed. The final Git history shows the conflict resolution commit and no remaining unresolved merge state.
+
